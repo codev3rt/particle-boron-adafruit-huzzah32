@@ -24,8 +24,8 @@ void setup()
   Serial1.begin(115200);
 
   Serial.println();
-  Serial.println("Serial1 TX/Pin: " + String(TX));
   Serial.println("Serial1 RX/Pin: " + String(RX));
+  Serial.println("Serial1 TX/Pin: " + String(TX));
   Serial.println();
   Serial1.flush();
   delay(1000);
