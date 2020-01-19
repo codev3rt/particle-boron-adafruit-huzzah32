@@ -35,7 +35,7 @@ void loop()
 {
 
   //Example 1
-  Serial2.writ e(example1);
+  Serial2.write(example1);
   //Serial1.print(example1);
 
   //Example 2
