@@ -22,8 +22,8 @@ void setup()
   Serial2.begin(115200);
 
   Serial.println();
-  Serial.println("Serial1 TX/Pin: " + String(TX));
   Serial.println("Serial1 RX/Pin: " + String(RX));
+  Serial.println("Serial1 TX/Pin: " + String(TX));
   Serial.println("Serial2 RX/Pin: " + String(RXD2));
   Serial.println("Serial2 TX/Pin: " + String(TXD2));
   Serial.println();
@@ -35,7 +35,7 @@ void loop()
 {
 
   //Example 1
-  Serial2.write(example1);
+  Serial2.writ e(example1);
   //Serial1.print(example1);
 
   //Example 2
