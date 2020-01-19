@@ -1,6 +1,7 @@
  /*****************************************************************************
  * Serial Communication between Particle Boron and Adafruit Huzzah32 
- * Upload this sketch to Particle Boron.
+ * Upload this sketch to Particle Boron
+ * You can loop pin TX with RX to test it on Boron itself
  *****************************************************************************/
 
 #include "Particle.h"
