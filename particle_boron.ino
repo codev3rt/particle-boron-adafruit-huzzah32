@@ -1,8 +1,7 @@
- /***************************************************8
- * Particle Boron using Serial1
- * 
- * Loop RX with TX to test the sketch
- ***************************************************/
+ /*****************************************************************************
+ * Serial Communication between Particle Boron and Adafruit Huzzah32 
+ * Upload this sketch to Particle Boron.
+ *****************************************************************************/
 
 #include "Particle.h"
 
