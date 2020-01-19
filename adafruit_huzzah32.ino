@@ -1,11 +1,12 @@
-  /*****************************************************************************
- * Serial Communication between Particle Boron and Adafruit Huzzah32 
- * Upload this sketch to Particle Boron
- * You can loop pin TX with RX to test it on Boron itself
- * 
- * RX = 15 for Serial2
- * TX = 17 for Serial2
- *****************************************************************************/
+/*****************************************************************************
+ * Serial Communication between Adafruit Huzzah32 and Particle Boron
+ * Upload this sketch to Adafruit Huzzah32
+ * You can loop pin TX with RX to test it on Adafruit Huzzah32 itself
+ *
+ * Using Serial2
+ * PIN RX = 16
+ * PIN TX = 17
+*****************************************************************************/
 
 #define RXD2 16
 #define TXD2 17
@@ -23,8 +24,8 @@ void setup()
   Serial.println();
   Serial.println("Serial1 TX/Pin: " + String(TX));
   Serial.println("Serial1 RX/Pin: " + String(RX));
-  Serial.println("Serial2 TX/Pin: " + String(TXD2));
   Serial.println("Serial2 RX/Pin: " + String(RXD2));
+  Serial.println("Serial2 TX/Pin: " + String(TXD2));
   Serial.println();
   Serial2.flush();
   delay(1000);
