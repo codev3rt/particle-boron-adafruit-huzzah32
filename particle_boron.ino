@@ -1,8 +1,12 @@
- /*****************************************************************************
+/*****************************************************************************
  * Serial Communication between Particle Boron and Adafruit Huzzah32 
  * Upload this sketch to Particle Boron
  * You can loop pin TX with RX to test it on Boron itself
- *****************************************************************************/
+ * 
+ * Using Serial1
+ * PIN RX = 10
+ * PIN TX = 9
+*****************************************************************************/
 
 #include "Particle.h"
 
